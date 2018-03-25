@@ -4,24 +4,24 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "react-native-scripts ios",
     "test": "jest"
   },
   "dependencies": {
-    "@exponent/vector-icons": "~2.0.0",
     "babel-preset-exponent": "^1.0.0",
+    "expo": "^24.0.2",
     "exponent": "~11.0.2",
-    "react": "~15.3.2",
-    "react-native": "github:exponentjs/react-native#sdk-11.0.3"
+    "react": "16.0.0-beta.5",
+    "react-native": "^0.51.0"
   },
   "jest": {
-    "preset": "jest-react-native"
+    "preset": "jest-expo"
   },
   "devDependencies": {
-    "babel-jest": "17.0.2",
-    "babel-preset-react-native": "1.9.0",
-    "jest": "17.0.3",
-    "jest-react-native": "17.0.3",
-    "react-test-renderer": "15.3.2"
+    "babel-preset-react-native": "4.0.0",
+    "jest-expo": "^22.0.0",
+    "react-test-renderer": "16.0.0-beta.5",
+    "react-native-scripts": "^1.11.1"
   },
-  "main": "main.js"
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js"
 }

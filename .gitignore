@@ -1,2 +1,7 @@
-node_modules/*
-.exponent/*
+node_modules/
+.exponent/
+.idea/
+.expo/
+.DS_Store
+package-lock.json
+

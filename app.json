@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Tetris",
+    "sdkVersion": "24.0.0",
+    "scheme": "tetris",
+    "privacy": "unlisted",
+    "slug": "tetris"
+  },
+  "androidStatusBar": {
+    "backgroundColor": "#eeeeee"
+  }
+}
